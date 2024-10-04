@@ -27,4 +27,14 @@ table.truth-table thead tr th {
   background: #e6b8a9;
   color: white;
   font-weight: bold;
+  &.name {
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+  }
+}
+
+p.signature {
+  font-size: 0.8em;
+  text-transform: lowercase;
 }
